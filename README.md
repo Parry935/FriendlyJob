@@ -16,6 +16,6 @@ Application supports the recruitment process in the IT industry. The main idea i
   <img width="75%" src="screenshots/web_filters.png">
   <img width="75%" src="screenshots/web_messages.png">
   <img width="75%" src="screenshots/web_opinions.png">
-  <img width="32%" height="550" src="screenshots/mobile_offers.png">
-  <img width="32%" height="550" src="screenshots/mobile_offer_details.png">
+  <img width="32%" src="screenshots/mobile_offers.png">
+  <img width="32%" src="screenshots/mobile_offer_details.png">
 </p>
