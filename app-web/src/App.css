@@ -1,0 +1,109 @@
+.content-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.center-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-space-around-app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-app {
+  display: flex;
+}
+
+.center-absolute-app {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.btn-link-app {
+  padding: 5px 20px;
+  margin: 15px;
+  background-color: #0d092c;
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+.link-blue-app {
+  color: #3268b8;
+}
+
+.link-blue-app:hover {
+  text-decoration: underline;
+}
+
+/* pagination-app */
+.pagination-app {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.pagination-app-left {
+  background-color: #81aef0;
+  padding: 5px;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.pagination-app-left:hover,
+.pagination-app-right:hover {
+  cursor: pointer;
+  background-color: #0d092c;
+}
+
+.pagination-app-right {
+  background-color: #81aef0;
+  padding: 5px;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.pagination-app-page-position {
+  background-color: #81aef0;
+  padding: 6px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+/* Icon */
+.icon-delete-app {
+  cursor: pointer;
+  font-size: 25px;
+  color: #ff0000;
+  padding-top: 4px;
+  transition: 0.15s ease-in-out;
+}
+
+.icon-delete-app:hover,
+.icon-create-app:hover {
+  padding-bottom: 4px;
+  padding-top: 0px;
+}
+
+.icon-create-app {
+  cursor: pointer;
+  font-size: 25px;
+  color: #008000;
+  padding-top: 4px;
+  transition: 0.15s ease-in-out;
+}
+
+.css-cveggr-MuiListItemIcon-root {
+  color: #fff !important;
+}

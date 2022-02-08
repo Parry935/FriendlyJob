@@ -1,0 +1,67 @@
+.center-flex-filter {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-filter {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+  overflow-x: auto;
+}
+
+.input-filter {
+  width: 220px;
+  padding: 15px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+
+.input-smaller-filter {
+  padding: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background: #f5f5f5;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0.5px 0.5px #9098a9;
+}
+
+.btn-add-filter {
+  position: relative;
+  top: 5px;
+  color: #008000;
+  font-size: 30px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.ul-filter {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.li-filter {
+  margin: 1px;
+}
+
+.btn-remove-filter {
+  position: relative;
+  top: 2px;
+  color: #ff0000;
+  font-size: 15px;
+  left: 2px;
+  cursor: pointer;
+}
+
+.wrap-margin-filter {
+  margin-top: 20px;
+}

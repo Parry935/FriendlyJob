@@ -1,0 +1,39 @@
+.center-flex-offers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-offers {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  white-space: nowrap;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 20px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+  min-width: 600px;
+  overflow-x: auto;
+  cursor: pointer;
+}
+
+.card-offers:hover {
+  background-color: #0d092c;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 20px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .card-offers {
+    min-width: 0px;
+  }
+}

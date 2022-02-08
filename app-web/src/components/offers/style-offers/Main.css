@@ -1,0 +1,51 @@
+.search-i-main,
+.filter-i-main {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  right: 0;
+  cursor: pointer;
+  margin: 10px 20px;
+}
+
+.inactive-main {
+  background-color: #81aef0;
+}
+
+.inactive-main:hover {
+  background-color: #3268b8;
+}
+
+.active-main {
+  background-color: #3268b8;
+}
+
+.active-main:hover {
+  background-color: #81aef0;
+}
+
+.filter-panel-main {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 5vw;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}
+
+.fp-active-main {
+  display: block;
+}
+
+.fp-inactive-main {
+  display: none;
+}
+
+.wrap-offers-main {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5vh 10vw;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4);
+}

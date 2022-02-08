@@ -1,0 +1,64 @@
+.navbar-top-menu {
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.items-menu {
+  float: left;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+.account-menu {
+  white-space: nowrap;
+  float: left;
+}
+.link-acc-menu {
+  float: left;
+  margin: 0px 15px;
+  font-size: 18px;
+}
+
+.link-acc-menu a:hover,
+.items-menu:hover,
+.link-logout-menu:hover,
+.items-acc-menu:hover {
+  color: #81aef0;
+}
+
+.hidden-acc-menu {
+  z-index: 50;
+  position: absolute;
+  display: none;
+}
+
+.items-acc-menu:hover > .hidden-acc-menu {
+  display: block;
+}
+
+.link-logout-menu {
+  text-decoration: none;
+  color: white;
+  float: left;
+  margin: 0px 15px;
+  font-size: 18px;
+}
+
+.link-logout-menu:hover {
+  cursor: pointer;
+}
+
+.items-acc-menu {
+  float: left;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 0px 15px;
+}
+
+.icon-menu {
+  position: relative;
+  top: 2px;
+}

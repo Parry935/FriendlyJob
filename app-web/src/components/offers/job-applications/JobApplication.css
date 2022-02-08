@@ -1,0 +1,34 @@
+.description-wrap-application {
+  border-top: 1px solid #000;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.wrap-top-application {
+  padding: 5px;
+  font-size: 17px;
+  color: #0d092c;
+  font-weight: 600;
+}
+
+.btn-application {
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  margin: 15px;
+  background-color: #0d092c;
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+.btn-red-application {
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  margin: 15px;
+  background-color: #9d0d15;
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.4);
+}
