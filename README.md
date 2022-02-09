@@ -1,4 +1,4 @@
-# FriendlyJob
+# Friendly job
 Application supports the recruitment process in the IT industry. The main idea is to create a system of job and programming offers. System also provides for adding employer reviews and exchanging messages.
 
 ## Tech stack:
